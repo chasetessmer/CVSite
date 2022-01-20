@@ -38,72 +38,14 @@ a {
     text-decoration: none;
 }
 
-figure {
+figure.headshot {
     text-align: center;
     margin: 0 auto;
     background-color: rgb(0, 131, 144);
     padding: 0 auto;
 }
 
-li.experienceEntry {
-    background-color: rgba(139, 0, 0, 0.1);
-    border: 3px solid rgba(255, 0, 0, 0.25);
-    border-radius: 10px;
-    
-}
-
-li.educationEntry {
-    background-color: rgba(139, 0, 0, 0.1);
-    border: 3px solid rgba(255, 0, 0, 0.25);
-    border-radius: 10px;
-}
-
-ul {
-    margin-left: auto;
-}
-
-ul.skillList {
-    margin-left: auto;
-}
-ul.experienceList {
-    margin-left: auto;
-}
-ul.educationList {
-    margin-left: auto;
-}
-
-h4.skillTitle {
-    margin-left: auto;
-}
-h3.experienceTitle {
-    margin-left: auto;
-}
-h3.educationTitle {
-    margin-left: auto;
-}
-
-h5.experienceLocation {
-    margin-left: auto;
-}
-h5.educationLocation {
-    margin-left: auto;
-}
-
-h5.experienceDate {
-    margin-left: auto;
-}
-h5.educationDate {
-    margin-left: auto;
-}
-
-p.skillText {
-    margin-left: auto;
-}
-p.experienceText {
-    margin-left: auto;
-}
-
-img.headshot {
+figure.headshot img {
     display: block;
     width: 15%;
     margin-left: auto;
@@ -111,7 +53,7 @@ img.headshot {
     border: 3px rgb(22, 22, 22) solid;
 }
 
-figcaption.headshotCaption {
+figure.headshot figcaption {
     margin: -40px auto;
     padding: 10px;
     width: 300px;
@@ -119,4 +61,53 @@ figcaption.headshotCaption {
     bottom: 40px;
     background-color: white;
     opacity: 50%;
+}
+
+ul {
+    margin-left: auto;
+}
+
+li.skills {
+    margin-left: auto;
+}
+
+li.skills h4 {
+    display: inline;
+    background-color: rgb(0, 131, 144);
+    padding: 3px;
+    border: rgb(22, 22, 22) solid 3px;
+    border-radius: 5px;
+}
+li.skills h4 + div {
+    display: inline-block;
+    opacity: 0;
+    margin-left: 30%;
+    transition: margin-left 500ms linear,
+                opacity 500ms linear;
+}
+li.skills h4:hover + div {
+    text-align: left;
+    opacity: 1;
+    margin-left: 5%;
+}
+li.skills p {
+    display: inline-block;
+    text-align: right;
+
+}
+
+li.experiences {
+    margin-left: auto
+}
+
+li.experiences h3, h5 {
+    margin-left: auto;
+}
+
+li.education {
+    margin-left: auto;
+}
+
+p.experienceText {
+    margin-left: auto;
 }
