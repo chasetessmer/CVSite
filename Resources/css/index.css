@@ -96,12 +96,15 @@ li.skills p {
 
 }
 
-li.experiences {
-    margin-left: auto
+li.experiences div {
+    background-color: rgb(0, 131, 144);
+    border:rgb(22, 22, 22) solid 3px;
+    border-radius: 10px;
+    max-width: 50em;
 }
 
-li.experiences h3, h5 {
-    margin-left: auto;
+li.experiences h3, h5, p {
+    margin-left: 1em;
 }
 
 li.education {
