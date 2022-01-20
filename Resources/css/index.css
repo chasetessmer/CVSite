@@ -1,0 +1,122 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    background-image: url("../marble_background.jpeg");
+    background-size: cover;
+    min-width: 800px;
+    margin: 0 0;
+}
+
+h1 {
+    color: rgb(0, 131, 144);
+    font-family: 'Permanent Marker', serif;
+    text-align: center;
+    font-size: 60px;
+}
+
+h1.myName {
+    position: sticky;
+    top: 0;
+    background-color: rgb(22, 22, 22);
+    padding: auto 100%;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-left: auto;
+}
+
+p, li {
+    font-size: 1em;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+figure {
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(0, 131, 144);
+    padding: 0 auto;
+}
+
+li.experienceEntry {
+    background-color: rgba(139, 0, 0, 0.1);
+    border: 3px solid rgba(255, 0, 0, 0.25);
+    border-radius: 10px;
+    
+}
+
+li.educationEntry {
+    background-color: rgba(139, 0, 0, 0.1);
+    border: 3px solid rgba(255, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+ul {
+    margin-left: auto;
+}
+
+ul.skillList {
+    margin-left: auto;
+}
+ul.experienceList {
+    margin-left: auto;
+}
+ul.educationList {
+    margin-left: auto;
+}
+
+h4.skillTitle {
+    margin-left: auto;
+}
+h3.experienceTitle {
+    margin-left: auto;
+}
+h3.educationTitle {
+    margin-left: auto;
+}
+
+h5.experienceLocation {
+    margin-left: auto;
+}
+h5.educationLocation {
+    margin-left: auto;
+}
+
+h5.experienceDate {
+    margin-left: auto;
+}
+h5.educationDate {
+    margin-left: auto;
+}
+
+p.skillText {
+    margin-left: auto;
+}
+p.experienceText {
+    margin-left: auto;
+}
+
+img.headshot {
+    display: block;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px rgb(22, 22, 22) solid;
+}
+
+figcaption.headshotCaption {
+    margin: -40px auto;
+    padding: 10px;
+    width: 300px;
+    position: relative;
+    bottom: 40px;
+    background-color: white;
+    opacity: 50%;
+}
