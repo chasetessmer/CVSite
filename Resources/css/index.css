@@ -68,33 +68,31 @@ ul {
     margin-left: auto;
 }
 
-li.skills {
-    margin-left: auto;
+div.skillContainer {
+    max-width: 1000px;
 }
 
-li.skills h4 {
-    display: inline;
-    background-color: rgb(0, 131, 144);
-    padding: 3px;
-    border: rgb(22, 22, 22) solid 3px;
-    border-radius: 5px;
-}
-li.skills h4 + div {
+div.skill {
+    max-width: 300px;
     display: inline-block;
-    opacity: 0;
-    margin-left: 30%;
-    transition: margin-left 500ms linear,
-                opacity 500ms linear;
+    vertical-align: top;
 }
-li.skills h4:hover + div {
-    text-align: left;
-    opacity: 1;
-    margin-left: 5%;
+div.skill h3 {
+    text-align: center;
 }
-li.skills p {
-    display: inline-block;
-    text-align: right;
+div.skill p {
+    text-align: justify;;
+}
 
+div.skill div.imageContainer {
+    width: 50%;
+    margin: 0 auto;
+}
+
+div.skill div.imageContainer img {
+    max-width: 100%;
+    width: 150px;
+    margin-top: 0;
 }
 
 li.experiences div {
