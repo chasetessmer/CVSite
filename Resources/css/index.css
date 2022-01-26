@@ -26,7 +26,8 @@ h1.myName {
 }
 
 h2 {
-    margin-left: auto;
+    margin-left: 0.5em;
+    font-size: 3em;
 }
 
 p, li {
@@ -36,6 +37,13 @@ p, li {
 
 a {
     text-decoration: none;
+}
+
+div.mainContent {
+    max-width: 1000px;
+    background-color: rgb(230, 230, 230);
+    margin: -2.5em auto;
+    border: rgb(22, 22, 22) solid 3px;
 }
 
 figure.headshot {
