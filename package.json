@@ -1,0 +1,23 @@
+{
+  "name": "cvsite",
+  "version": "1.0.0",
+  "description": "Source code for my resumé website.",
+  "main": "serverTest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chasetessmer/CVSite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chasetessmer/CVSite/issues"
+  },
+  "homepage": "https://github.com/chasetessmer/CVSite#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2"
+  }
+}

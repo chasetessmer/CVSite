@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Chase's Web Site</title>
+        <link href="./Resources/css/reviews.css" type="text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+        <link rel="icon" href="./Resources/favicon-32x32.png" type="image/x-icon">
+    </head>
+    <body>
+        <figure class="headshot">
+            <img src="./Resources/Chase_HeadShot.jpeg" >
+            <figcaption>Using this until I take a better picture</figcaption>
+        </figure>
+        <div class="headerBar">
+            <h1 class="myName">Nathaniel Chase Tessmer</h1>
+            <nav class="navigationBar">
+                    <h2><a href="./index.html">My CV</a></h2>
+                    <h2><a href="./reviews.html"><u>Reviews Project</u></a></h2>
+            </nav>
+        </div>
+        <h2>THIS IS STILL A WORK IN PROGRESS</h2>
+        <div class="mainContent">
+            <div class="reviewsContainer" id="reviewsContainer">
+                <div class="averageScore">
+                    <h3>My average review score:</h3>
+                    <div class="starsContainer">
+                        <div class="noStarsContainer">
+                            <img src="./Resources/zerostars.png">
+                        </div>
+                        <div class="starContainer_3">
+                            <img src="./Resources/fivestars.png">
+                            
+                        </div>
+                    </div>
+                </div>
+                <h3>Here is a sampling of some reviews:</h3>
+                <div class="review" id="review">
+                    <div class="starsContainer">
+                        <div class="noStarsContainer">
+                            <img src="./Resources/zerostars.png">
+                        </div>
+                        <div class="starContainer_3">
+                            <img src="./Resources/fivestars.png">
+                            
+                        </div>
+                    </div>
+                    <p>Chase is pretty okay I guess!</p>
+                </div>
+                <div class="review" id="review">
+                    <div class="starsContainer">
+                        <div class="noStarsContainer">
+                            <img src="./Resources/zerostars.png">
+                        </div>
+                        <div class="starContainer_5">
+                            <img src="./Resources/fivestars.png">
+                        </div>
+                    </div>
+                    <p>Chase is great!</p>
+                </div>
+                <div class="review" id="review">
+                    <div class="starsContainer">
+                        <div class="noStarsContainer">
+                            <img src="./Resources/zerostars.png">
+                        </div>
+                        <div class="starContainer_1">
+                            <img src="./Resources/fivestars.png">
+                        </div>
+                    </div>
+                    <p>Can't stand him personally.</p>
+                </div>
+            </div>
+        </div>
+        <div class="reviewSubmission">
+            <h2>Submit your own review!</h2>
+            <form class="reviewSubmissionForm">
+                <h3>Rating:</h3>
+                <div class="ratingRadioButtons">
+                    <div>
+                        <input type="radio" id="star_1_of_five" name="drone" value="One out of five stars">
+                        <label for="star_1_of_five">1/5</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="star_2_of_five" name="drone" value="Two out of five stars">
+                        <label for="star_2_of_five">2/5</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="star_3_of_five" name="drone" value="Three out of five stars">
+                        <label for="star_3_of_five">3/5</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="star_4_of_five" name="drone" value="Four out of five stars">
+                        <label for="star_4_of_five">4/5</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="star_5_of_five" name="drone" value="Five out of five stars" checked="true">
+                        <label for="star_5_of_five">5/5</label>
+                    </div>
+                </div>
+                <div class="textboxContainer">
+                    <div contenteditable="true" class="reviewSubmissionText">
+                        <p>Write your review here!</p>
+                    </div>
+                </div>
+                <div class="submitButtonContainer">
+                    <input type="button" value="Submit" class="submitButton">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
